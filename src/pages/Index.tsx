@@ -69,7 +69,7 @@ const Index = () => {
       <div className="container mx-auto px-4 py-6 space-y-6">
         {/* Hero Banner (texto estático para não depender mais do payload) */}
         <HeroBanner
-          title="Ranking de Traders - Suzana"
+          title="Ranking de Traders - Sid Trader"
           description={`Faça um depósito de pelo menos R$ ${minDeposit} para se tornar apto ao torneio!`}
         />
         {/* Premiação & Regras */}
@@ -82,8 +82,8 @@ const Index = () => {
     </div>
 
     <ul className="space-y-1 text-sm">
-      <li><span className="font-medium">1º lugar:</span> Banca de R$ 3.000</li>
-      <li><span className="font-medium">2º lugar:</span> Banca de R$ 500</li>
+      <li><span className="font-medium">1º lugar:</span> Banca de R$ 2.000 + Mentoria</li>
+      <li><span className="font-medium">2º lugar:</span> Banca de R$ 1.500 + Master Class</li>
       <li><span className="font-medium">3º lugar:</span> Banca de R$ 500</li>
     </ul>
   </div>
@@ -96,9 +96,9 @@ const Index = () => {
     </div>
 
     <ol className="list-decimal list-inside space-y-1 text-sm">
-      <li>Necessário depositar pelo menos <span className="font-medium">R$ {minDeposit} entre 11/09 e 30/09</span>.</li>
+      <li>Necessário depositar pelo menos <span className="font-medium">R$ {minDeposit} entre 11/09 e 19/10</span>.</li>
       <li>Ganha o trader que tiver o maior <span className="font-medium">Resultado no período</span>.</li>
-      <li>A banca será fornecida em até 5 dias úteis após o termino do torneio e terá um rollover de 5x para o saque.</li>
+      <li>A banca será fornecida em até 5 dias úteis após o termino do torneio.</li>
     </ol>
   </div>
 </section>
